@@ -393,4 +393,26 @@ Wire Wire Line
 	2770 980  2770 930 
 Text Notes 1055 2460 0    50   ~ 0
 RESET\nNegative asserted\n
+$Comp
+L Regulator_Linear:AP2112K-3.3 U?
+U 1 1 5CF689A3
+P 3745 1105
+F 0 "U?" H 3745 1447 50  0000 C CNN
+F 1 "AP2112K-3.3" H 3745 1356 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3745 1430 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 3745 1205 50  0001 C CNN
+	1    3745 1105
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery_Management:MCP73811T-420I-OT U?
+U 1 1 5CF6E21B
+P 5615 1010
+F 0 "U?" H 6059 1056 50  0000 L CNN
+F 1 "MCP73811T-420I-OT" H 6059 965 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5665 760 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf" H 5365 1260 50  0001 C CNN
+	1    5615 1010
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
